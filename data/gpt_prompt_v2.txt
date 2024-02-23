@@ -1,0 +1,8 @@
+This task is to identify the sentences in a document that contribute to a given summary of that document. This annotation is a sentence-labeling task. For each snippet, you'll see a summary (labeled Summary:) and a sentence of a short news article (labeled Sentence:).
+
+The output will be a score from 0 to 100,  0 with “doesn't contribute to summary” with the highest confidence and 100 with “contribute to summary” with the highest confidence.
+
+Summary: {summary}
+Sentence: {sentence}
+
+Score: 

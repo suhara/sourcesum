@@ -1,0 +1,3 @@
+lexrank==0.1.0
+bert-score==0.3.11
+seaborn==0.11.2
