@@ -53,6 +53,7 @@ Each file stores `List[Dict]` in a JSON format. Each entry follows the schema be
     - `sentence: str`: Sentence text
     - `pos: List[int]`: Beginning and end positions of the sentence
     - `label: List[int]`: Source sentence annotation (annotations by at least two annotators) (`0`: does not contribute to the summary, `1`: contributes to the summary)
+- `summary_label: List[int]`: Reconstructibility label (`1`: Yes, `0`: No) (whether the system/reference summary can be reconstructed from the source document)
 - `document: str`: Original document
 - `ref_summary: str`: Reference summary (all sentences)
 - `gen_summary: str`: Generated summary sentence. If `model=="reference"`, it is **a sentence** (not all the summary) of the reference summary.
